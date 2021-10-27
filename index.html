@@ -1,0 +1,77 @@
+
+
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Guess The Number</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<!-- Head Section -->
+   <div id="head">
+        <section id="nav">
+
+            <button class="btn restart">Restart</button>
+
+            <div class="between120"><span>(Between 1 to 20)</span></div>
+           
+
+        </section>
+      <br>
+
+        <div id="game-title">
+            <h2>Guess The Number!</h2>
+
+           
+        </div>
+
+
+        <div id="line"></div>
+        <div class="center">
+            <button class="btn-que"><span id="q">?</span></button>
+        </div>
+   </div>
+
+<!-- Main Section -->
+
+<div class="main">
+    <div class="left-side">
+
+        <div class="input-field">
+            <input type="number" class="inp-guess">
+            <br>
+            <button class="btn check">Check!</button>
+        </div>
+    </div>
+
+    <div class="right-side">
+        
+        <div class="right-position">
+
+                <span id="hint" class="right-side-text">🤔 Start Guessing...</span>
+
+                <div class="score-box">
+                    <span id="score-text" class="right-side-text">💯 Score: <span id="score">10</span></span>
+                    <br>
+                    <br>
+                    <span class="high-score-text right-side-text">🏅 High Score: <span id="high-score">0</span></span>
+                </div>
+        </div>     
+    </div>
+
+    <script src="app.js"></script>
+</div>
+
+
+
+
+  
+    
+</body>
+</html>
